@@ -1,0 +1,45 @@
+
+
+
+<h1>SignUp</h1>
+
+<%= form_for @seller, url: {action: "main"} do |u| %>
+                <p>
+                    <%= u.label :FirstName %>
+                    <%= u.text_field :fname %>
+                </p>
+                <p> 
+                    <%= u.label :LastName %>
+                    <%= u.text_field :lname %>
+                </p>
+                <p> 
+                    <%= u.label :EmailId %>
+                    <%= u.text_field :email%>
+                </p>
+                
+                <p> 
+                    <%= u.label :Phone_No %>
+                    <%= u.text_field :phone_no%>
+                </p>
+                
+                
+                <p> 
+                    <%= u.label :Pincode %>
+                    <%= u.text_field :pincode%>
+                </p>
+                
+                
+                <p> 
+                    <%= u.label :State %>
+                    <%= u.text_field :state%>
+                </p>
+                
+                <p>
+                    <%= u.label :Password %>
+                    <%= u.password_field :password %>
+                </p>    
+                <%= u.submit "SignUp" %>
+                <%end%>
+                
+                
+                

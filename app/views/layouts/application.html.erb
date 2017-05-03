@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>MajorProject</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'default', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'default', 'data-turbolinks-track': 'reload' %>
+  
+  <%= javascript_include_tag 'https://www.simplify.com/commerce/v1/simplify.js' %>
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
