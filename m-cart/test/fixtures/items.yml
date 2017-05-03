@@ -1,0 +1,11 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  itemid: 1
+  cost: 1
+  brand: MyString
+
+two:
+  itemid: 1
+  cost: 1
+  brand: MyString
